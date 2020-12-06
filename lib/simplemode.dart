@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'homepage.dart';
+import 'mainDrawer.dart';
 
 import 'package:flutter/services.dart';
 
@@ -154,8 +155,8 @@ class _DicepageState extends State<Dicepage> {
           ),
         ),
         drawer: Drawer(
-            // child: MainDrawer(),
-            ),
+          child: MainDrawer(),
+        ),
         body: Padding(
           padding: const EdgeInsets.fromLTRB(21, 50, 21, 50),
           child: Column(
@@ -264,12 +265,14 @@ class _DicepageState extends State<Dicepage> {
         title: Text(
           "Winner Dice :",
           style: TextStyle(
-              fontSize: 40.0, fontWeight: FontWeight.bold, color: Colors.white),
+              fontSize: 15.0, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         content: Text(
           "Dice Two is Greater ",
           style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 30.0, color: Colors.pink),
+              fontWeight: FontWeight.bold,
+              fontSize: 10.0,
+              color: Colors.white70),
         ),
       );
 
