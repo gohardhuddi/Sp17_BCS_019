@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'simplemode.dart';
 
 class homepage extends StatefulWidget {
   @override
@@ -17,6 +18,13 @@ class _homepageState extends State<homepage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 RaisedButton(
+                  color: Colors.pink,
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Dicepage()),
+                    );
+                  },
                   child: Text(
                     "Simple Mode",
                     style: TextStyle(
