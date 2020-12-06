@@ -213,12 +213,16 @@ class _DicepageState extends State<Dicepage> {
                   child: Text('Roll Dice'),
                 ),
               ),
-              // Padding(
-              //   padding: const EdgeInsets.only(top: 10),
-              //   //child: RaisedButton(onPressed: MainMenu,
-              //     child: Text('Exit Game'),
-              //   ),
-              // ),
+              Padding(
+                padding: const EdgeInsets.only(top: 10),
+                child: RaisedButton(
+                  color: Color(0xFFD32F2F),
+                  onPressed: () {
+                    exit(0);
+                  },
+                  child: Text('Exit Game'),
+                ),
+              ),
               //
               // Padding(
               //   padding: const EdgeInsets.only(top: 10),

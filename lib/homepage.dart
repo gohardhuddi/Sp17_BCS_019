@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'simplemode.dart';
 
@@ -39,6 +41,22 @@ class _homepageState extends State<homepage> {
                 RaisedButton(
                   child: Text(
                     "Hard Mode",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 23.0,
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 30.0,
+                ),
+                RaisedButton(
+                  color: Color(0xFFD32F2F),
+                  onPressed: () {
+                    exit(0);
+                  },
+                  child: Text(
+                    "Exit",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 23.0,
