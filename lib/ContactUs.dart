@@ -32,14 +32,12 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Colors.redAccent[700],
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Colors.pink,
         title: Text(
           'Contact Us',
           style: TextStyle(color: Colors.white),
         ),
-      ),
-      drawer: Drawer(
-        child: MainDrawer(),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -50,28 +48,67 @@ class _MyHomePageState extends State<MyHomePage> {
             backgroundImage: AssetImage('images/profileimage.jpg'),
           ),
           Text(
-            'This is Khurram Shahzad',
+            'Khurram Shahzad',
             style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 30.0,
-                color: Colors.white),
+                fontSize: 30.0, color: Colors.white, fontFamily: 'Pacifico'),
           ),
           SizedBox(height: 30.0),
-          Text(
-            "Roll# : SP17-BCS-019",
-            style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20.0,
-                color: Colors.white),
-          ),
-          SizedBox(height: 30.0),
-          Center(
-            child: Text(
-              "I am a Flutter developer. Contact us for app development.",
-              style:
-                  TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              vertical: 5,
+              horizontal: 25,
+            ),
+            child: Card(
+              color: Colors.white,
+              elevation: 22.0,
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              child: Center(
+                child: ListTile(
+                  leading: Icon(
+                    Icons.account_circle,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'SP17_BCS_019',
+                    style: TextStyle(
+                      fontFamily: 'SourceSansPro',
+                      color: Colors.teal[900],
+                      fontSize: 15.0,
+                    ),
+                  ),
+                ),
+              ),
             ),
           ),
+          SizedBox(height: 20.0),
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              vertical: 5,
+              horizontal: 25,
+            ),
+            child: Card(
+              color: Colors.white,
+              elevation: 22.0,
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              child: Center(
+                child: ListTile(
+                  leading: ImageIcon(
+                    AssetImage("images/github.png"),
+                    color: Colors.black,
+                  ),
+                  title: Text(
+                    'https://github.com/gohardhuddi',
+                    style: TextStyle(
+                      fontFamily: 'SourceSansPro',
+                      color: Colors.teal[900],
+                      fontSize: 15.0,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          SizedBox(height: 20.0),
           SizedBox(height: 40.0),
           Padding(
             padding: const EdgeInsets.only(top: 10),
@@ -83,7 +120,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   MaterialPageRoute(builder: (context) => homepage()),
                 );
               },
-              child: Text('Go Home'),
+              child: Text(
+                'Go Home',
+                style: TextStyle(color: Colors.white),
+              ),
             ),
           ),
         ],

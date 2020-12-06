@@ -146,6 +146,7 @@ class _DicepageState extends State<Dicepage> {
         backgroundColor: Colors.redAccent[700],
         appBar: AppBar(
           backgroundColor: Colors.pink,
+          centerTitle: true,
           title: Text(
             'Simple Level',
             style: TextStyle(
@@ -198,7 +199,7 @@ class _DicepageState extends State<Dicepage> {
                   elevation: 15.0,
                   color: Colors.pink,
                   child: Text(
-                    'Check Winner Dice',
+                    '      Check Winner Dice     ',
                     style: TextStyle(color: Colors.white),
                   ),
                   onPressed: () {
@@ -207,13 +208,13 @@ class _DicepageState extends State<Dicepage> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 30),
+                padding: const EdgeInsets.only(top: 10),
                 child: RaisedButton(
                   elevation: 15.0,
                   color: Colors.pink,
                   onPressed: changeImage,
-                  child:
-                      Text('Roll Dice', style: TextStyle(color: Colors.white)),
+                  child: Text('           Roll Dice         ',
+                      style: TextStyle(color: Colors.white)),
                 ),
               ),
               Padding(
@@ -224,8 +225,8 @@ class _DicepageState extends State<Dicepage> {
                   onPressed: () {
                     exit(0);
                   },
-                  child:
-                      Text('Exit Game', style: TextStyle(color: Colors.white)),
+                  child: Text('          Exit Game         ',
+                      style: TextStyle(color: Colors.white)),
                 ),
               ),
               Padding(
@@ -240,7 +241,7 @@ class _DicepageState extends State<Dicepage> {
                     );
                   },
                   child: Text(
-                    'Go Home',
+                    '          Go Home          ',
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
