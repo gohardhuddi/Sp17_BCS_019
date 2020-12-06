@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'simplemode.dart';
+import 'ContactUs.dart';
 
 class MainDrawer extends StatelessWidget {
   const MainDrawer({Key key}) : super(key: key);
@@ -57,12 +58,12 @@ class MainDrawer extends StatelessWidget {
       ),
 
       ListTile(
-        // onTap: () {
-        //   Navigator.push(
-        //     context,
-        //     MaterialPageRoute(builder: (context) => MyContact()),
-        //   );
-        // },
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => MyContact()),
+          );
+        },
         leading: Icon(
           Icons.inbox,
           color: Colors.white,
