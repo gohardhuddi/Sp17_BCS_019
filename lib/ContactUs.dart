@@ -1,3 +1,5 @@
+import 'package:dice_roler_master/homepage.dart';
+
 import 'main.dart';
 import 'mainDrawer.dart';
 import 'package:flutter/material.dart';
@@ -71,13 +73,19 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           SizedBox(height: 40.0),
-
-          // Padding(
-          //   padding: const EdgeInsets.only(top: 10),
-          //   child: RaisedButton(onPressed: HomeScreen,
-          //     child: Text('Go Home'),
-          //   ),
-          // ),
+          Padding(
+            padding: const EdgeInsets.only(top: 10),
+            child: RaisedButton(
+              color: Colors.pink,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => homepage()),
+                );
+              },
+              child: Text('Go Home'),
+            ),
+          ),
         ],
       ),
     );

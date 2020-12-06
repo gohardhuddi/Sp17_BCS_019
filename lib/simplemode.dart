@@ -174,7 +174,6 @@ class _DicepageState extends State<Dicepage> {
                   ),
                 ),
               ),
-
               SizedBox(
                 height: 30.0,
               ),
@@ -193,43 +192,59 @@ class _DicepageState extends State<Dicepage> {
                   ),
                 ],
               ),
-
               Padding(
                 padding: const EdgeInsets.only(top: 30),
                 child: RaisedButton(
+                  elevation: 15.0,
                   color: Colors.pink,
-                  child: Text('Check Winner Dice'),
+                  child: Text(
+                    'Check Winner Dice',
+                    style: TextStyle(color: Colors.white),
+                  ),
                   onPressed: () {
                     showAlertDialog(context);
                   },
                 ),
               ),
-
               Padding(
                 padding: const EdgeInsets.only(top: 30),
                 child: RaisedButton(
+                  elevation: 15.0,
                   color: Colors.pink,
                   onPressed: changeImage,
-                  child: Text('Roll Dice'),
+                  child:
+                      Text('Roll Dice', style: TextStyle(color: Colors.white)),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 10),
                 child: RaisedButton(
-                  color: Color(0xFFD32F2F),
+                  color: Colors.pink,
+                  elevation: 15.0,
                   onPressed: () {
                     exit(0);
                   },
-                  child: Text('Exit Game'),
+                  child:
+                      Text('Exit Game', style: TextStyle(color: Colors.white)),
                 ),
               ),
-              //
-              // Padding(
-              //   padding: const EdgeInsets.only(top: 10),
-              //   child: RaisedButton(onPressed: HomeScreen,
-              //     child: Text('Go Home'),
-              //   ),
-              // ),
+              Padding(
+                padding: const EdgeInsets.only(top: 10),
+                child: RaisedButton(
+                  color: Colors.pink,
+                  elevation: 15.0,
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => homepage()),
+                    );
+                  },
+                  child: Text(
+                    'Go Home',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
             ],
           ),
         ));

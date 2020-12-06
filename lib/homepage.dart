@@ -21,6 +21,7 @@ class _homepageState extends State<homepage> {
               children: [
                 RaisedButton(
                   color: Colors.pink,
+                  elevation: 15.0,
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -39,6 +40,7 @@ class _homepageState extends State<homepage> {
                   height: 30.0,
                 ),
                 RaisedButton(
+                  elevation: 15.0,
                   child: Text(
                     "Hard Mode",
                     style: TextStyle(
@@ -51,6 +53,7 @@ class _homepageState extends State<homepage> {
                   height: 30.0,
                 ),
                 RaisedButton(
+                  elevation: 15.0,
                   color: Color(0xFFD32F2F),
                   onPressed: () {
                     exit(0);
