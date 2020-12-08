@@ -20,6 +20,7 @@ class _hardState extends State<hard> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Hard Level"),
+        centerTitle: true,
       ),
       drawer: Drawer(
         child: MainDrawer(),

@@ -24,7 +24,8 @@ class _gussState extends State<guss> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("About US"),
+        title: Text("Hard Lavel"),
+        centerTitle: true,
       ),
       drawer: Drawer(
         child: MainDrawer(),

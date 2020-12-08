@@ -178,20 +178,22 @@ class _DicepageState extends State<Dicepage> {
               SizedBox(
                 height: 30.0,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: <Widget>[
-                  Image.asset(
-                    'images/' + imageArray[randomIntForDiceOne],
-                    height: 150,
-                    width: 150,
-                  ),
-                  Image.asset(
-                    'images/' + imageArray[randomIntForDiceTwo],
-                    height: 150,
-                    width: 150,
-                  ),
-                ],
+              Expanded(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: <Widget>[
+                    Image.asset(
+                      'images/' + imageArray[randomIntForDiceOne],
+                      height: 150,
+                      width: 150,
+                    ),
+                    Image.asset(
+                      'images/' + imageArray[randomIntForDiceTwo],
+                      height: 150,
+                      width: 150,
+                    ),
+                  ],
+                ),
               ),
               Container(
                 width: 300.0,
