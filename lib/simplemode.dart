@@ -193,56 +193,96 @@ class _DicepageState extends State<Dicepage> {
                   ),
                 ],
               ),
-              Padding(
-                padding: const EdgeInsets.only(top: 30),
-                child: RaisedButton(
+              Container(
+                width: 300.0,
+                child: RawMaterialButton(
+                  fillColor: Colors.pink,
+                  splashColor: Colors.red,
                   elevation: 15.0,
-                  color: Colors.pink,
-                  child: Text(
-                    '      Check Winner Dice     ',
-                    style: TextStyle(color: Colors.white),
+                  shape: const StadiumBorder(),
+                  onPressed: changeImage,
+                  child: Padding(
+                    padding:
+                        EdgeInsets.symmetric(vertical: 5.0, horizontal: 2.0),
+                    child: Text(
+                      "Roll Dice ",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20.0,
+                      ),
+                    ),
                   ),
+                ),
+              ),
+              Container(
+                width: 300.0,
+                child: RawMaterialButton(
+                  fillColor: Colors.pink,
+                  splashColor: Colors.red,
+                  elevation: 15.0,
+                  shape: const StadiumBorder(),
                   onPressed: () {
                     showAlertDialog(context);
                   },
+                  child: Padding(
+                    padding:
+                        EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
+                    child: Text(
+                      " Check Winner Dice ",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20.0,
+                      ),
+                    ),
+                  ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.only(top: 10),
-                child: RaisedButton(
+              Container(
+                width: 300.0,
+                child: RawMaterialButton(
+                  fillColor: Colors.pink,
+                  splashColor: Colors.red,
                   elevation: 15.0,
-                  color: Colors.pink,
-                  onPressed: changeImage,
-                  child: Text('           Roll Dice         ',
-                      style: TextStyle(color: Colors.white)),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 10),
-                child: RaisedButton(
-                  color: Colors.pink,
-                  elevation: 15.0,
-                  onPressed: () {
-                    exit(0);
-                  },
-                  child: Text('          Exit Game         ',
-                      style: TextStyle(color: Colors.white)),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 10),
-                child: RaisedButton(
-                  color: Colors.pink,
-                  elevation: 15.0,
+                  shape: const StadiumBorder(),
                   onPressed: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => homepage()),
                     );
                   },
-                  child: Text(
-                    '          Go Home          ',
-                    style: TextStyle(color: Colors.white),
+                  child: Padding(
+                    padding:
+                        EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
+                    child: Text(
+                      "Go Home ",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20.0,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                width: 300.0,
+                child: RawMaterialButton(
+                  fillColor: Colors.pink,
+                  splashColor: Colors.red,
+                  elevation: 15.0,
+                  shape: const StadiumBorder(),
+                  onPressed: () {
+                    exit(0);
+                  },
+                  child: Padding(
+                    padding:
+                        EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
+                    child: Text(
+                      "Exit ",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20.0,
+                      ),
+                    ),
                   ),
                 ),
               ),

@@ -64,6 +64,10 @@ class _splashscreenState extends State<splashscreen> {
                 child: Card(
                   color: Colors.white,
                   elevation: 22.0,
+                  shape: RoundedRectangleBorder(
+                    side: BorderSide(color: Colors.white70, width: 13),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
                   margin:
                       EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                   child: Center(

@@ -61,6 +61,10 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Card(
               color: Colors.white,
               elevation: 22.0,
+              shape: RoundedRectangleBorder(
+                side: BorderSide(color: Colors.white70, width: 13),
+                borderRadius: BorderRadius.circular(20),
+              ),
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
               child: Center(
                 child: ListTile(
@@ -89,6 +93,10 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Card(
               color: Colors.white,
               elevation: 22.0,
+              shape: RoundedRectangleBorder(
+                side: BorderSide(color: Colors.white70, width: 13),
+                borderRadius: BorderRadius.circular(20),
+              ),
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
               child: Center(
                 child: ListTile(
@@ -103,6 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       color: Colors.teal[900],
                       fontSize: 15.0,
                     ),
+                    textAlign: TextAlign.justify,
                   ),
                 ),
               ),
@@ -110,19 +119,28 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           SizedBox(height: 20.0),
           SizedBox(height: 40.0),
-          Padding(
-            padding: const EdgeInsets.only(top: 10),
-            child: RaisedButton(
-              color: Colors.pink,
+          Container(
+            width: 300.0,
+            child: RawMaterialButton(
+              fillColor: Colors.pink,
+              splashColor: Colors.red,
+              elevation: 15.0,
+              shape: const StadiumBorder(),
               onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => homepage()),
                 );
               },
-              child: Text(
-                'Go Home',
-                style: TextStyle(color: Colors.white),
+              child: Padding(
+                padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 10.0),
+                child: Text(
+                  " Go Home ",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20.0,
+                  ),
+                ),
               ),
             ),
           ),
