@@ -16,22 +16,12 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-Splash Screen
-![Screenshot_2020-12-05-19-00-52-78](https://user-images.githubusercontent.com/56849235/101245201-ed21c980-36bf-11eb-9218-4a1a200b2efc.jpg)
-
-![Screenshot_2020-12-05-19-01-18-96_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101245206-f0b55080-36bf-11eb-95e0-2b24e8ab7b73.jpg)
-
-
-![Screenshot_2020-12-05-19-01-12-95_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101245207-f1e67d80-36bf-11eb-95a1-c0e9340c1323.jpg)
-
-
-![Screenshot_2020-12-05-19-00-54-32_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101245208-f317aa80-36bf-11eb-86a8-3a703715567b.jpg)
-
-
-![Screenshot_2020-12-05-19-01-25-34_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101245210-f3b04100-36bf-11eb-8ad3-678a86925fce.jpg)
-
-
-![Screenshot_2020-12-05-19-01-05-66_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101245211-f57a0480-36bf-11eb-8975-9ee0d6e73b3f.jpg)
-
-
-
+![Screenshot_2020-12-06-01-26-27-91](https://user-images.githubusercontent.com/56849235/101262812-12c9c580-36f6-11eb-927e-af0442398f84.jpg)
+![Screenshot_2020-12-06-01-27-53-56_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101262824-2ecd6700-36f6-11eb-8273-20e2983e6a3d.jpg)
+![Screenshot_2020-12-06-01-27-59-95_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101262829-3b51bf80-36f6-11eb-90e6-50b414065269.jpg)
+![Screenshot_2020-12-06-01-28-05-35_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101262841-4dcbf900-36f6-11eb-9de9-17dcb63e1ba5.jpg)
+![Screenshot_2020-12-06-01-28-17-53_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101262852-5b817e80-36f6-11eb-8d37-dab201f2e625.jpg)
+![Screenshot_2020-12-06-01-28-27-10_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101262860-663c1380-36f6-11eb-9c29-e7b9bde50ad4.jpg)
+![Screenshot_2020-12-06-01-28-32-72_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101262870-79e77a00-36f6-11eb-96a6-46c12e6ecc47.jpg)
+![Screenshot_2020-12-06-01-28-45-33_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101262877-8c61b380-36f6-11eb-9d21-ae46ff968e92.jpg)
+![Screenshot_2020-12-06-01-28-51-90_eb1c4259b5066d79c9331f2f4f04af54](https://user-images.githubusercontent.com/56849235/101262882-97b4df00-36f6-11eb-9c28-806c0ede9bc8.jpg)
